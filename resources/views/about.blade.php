@@ -16,7 +16,7 @@
     
     <select name="department" id="department">
         @foreach ($departments as $key => $department )
-         <option value="{{$key }}">{{ $department }}</option>
+         <option value="{{$key }}"> {{ $department }}</option>
         @endforeach
     </select><br>
 </form>
